@@ -1,2 +1,2 @@
 # learning_anthropic
-Repo for Anthropic classes and experiments
+Repo for learning about Anthropic API and models
