@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that takes an AWS S3 bucket name and returns True if it follows AWS naming conventions (lowercase, 3-63 characters, no consecutive hyphens), False otherwise."
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events with a 5-minute timeout and 512MB memory allocation",
+    "format": "json"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing a user to read all objects from an S3 bucket named 'my-bucket'."
+    "task": "Write a Python function that takes an AWS IAM policy document (as a dictionary) and returns a list of all the resource ARNs that are granted access",
+    "format": "python"
   },
   {
-    "task": "Write a Regex pattern that matches valid AWS EC2 instance IDs (format: i-followed by 8 or 17 hexadecimal characters)."
+    "task": "Create a regex pattern that validates AWS S3 bucket names according to AWS naming rules (3-63 characters, lowercase letters, numbers, and hyphens, must start and end with alphanumeric)",
+    "format": "regex"
   }
 ]
