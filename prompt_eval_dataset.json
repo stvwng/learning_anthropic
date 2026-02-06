@@ -1,14 +1,17 @@
 [
   {
-    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events with a 5-minute timeout and 512MB memory allocation",
-    "format": "json"
+    "task": "Parse an AWS S3 bucket name from a full S3 URI (e.g., 's3://my-bucket-name/path/to/file.txt') and extract only the bucket name",
+    "format": "regex",
+    "solution_criteria": "Must correctly extract bucket names from various S3 URI formats, handle URIs with and without trailing paths, and account for bucket naming rules (lowercase, hyphens, numbers)"
   },
   {
-    "task": "Write a Python function that takes an AWS IAM policy document (as a dictionary) and returns a list of all the resource ARNs that are granted access",
-    "format": "python"
+    "task": "Create a JSON configuration object for an AWS Lambda function that includes environment variables, memory allocation, timeout, and a basic IAM role ARN",
+    "format": "json",
+    "solution_criteria": "JSON must be valid, include required Lambda configuration fields (FunctionName, Runtime, Handler, Role, Timeout, MemorySize), contain at least 2 environment variables, and follow AWS Lambda CloudFormation or API schema"
   },
   {
-    "task": "Create a regex pattern that validates AWS S3 bucket names according to AWS naming rules (3-63 characters, lowercase letters, numbers, and hyphens, must start and end with alphanumeric)",
-    "format": "regex"
+    "task": "Write a Python function that validates an AWS IAM role ARN string and returns True if valid, False otherwise",
+    "format": "python",
+    "solution_criteria": "Function must validate ARN format (arn:aws:iam::account-id:role/role-name), check account ID is numeric, ensure role name contains only valid characters, and handle edge cases like empty strings"
   }
 ]
