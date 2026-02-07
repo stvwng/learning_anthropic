@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle and strength through weightlifting with optimal protein timing around workouts",
+      "dietary_restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan provides 136-187g total daily protein (1.6-2.2g per kg body weight)",
+      "Includes pre-workout and post-workout meals with appropriate macronutrient timing",
+      "Covers all meals for one complete day with realistic, athlete-appropriate foods"
+    ],
+    "task_description": "Create a one day meal plan for an athlete.",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing high protein intake (1.6-2.2g per kg) with specific meal timing around workouts"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - prepare for a 42km race with high carbohydrate loading and sustained energy intake",
+      "dietary_restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan provides 3000+ calories distributed across breakfast, lunch, dinner, and snacks",
+      "Carbohydrates comprise 55-65% of total calories with emphasis on complex carbs and glycogen-replenishing foods",
+      "Includes specific meal timing and portion sizes appropriate for marathon training nutrition",
+      "All meals and snacks are practical, realistic, and support sustained energy for endurance performance"
+    ],
+    "task_description": "Create a one day meal plan for an athlete.",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and sustained energy foods"
+  },
+  {
+    "prompt_inputs": {
+      "height": "160",
+      "weight": "52",
+      "goal": "maintain lean muscle while supporting high-intensity training",
+      "dietary_restrictions": "vegan (no animal products including dairy and eggs)"
+    },
+    "solution_criteria": [
+      "All meals and snacks are completely vegan with no animal products",
+      "Macronutrient distribution supports athletic performance with adequate protein from plant sources",
+      "Caloric intake is appropriate for maintaining current weight while fueling training demands",
+      "Meal plan is practical and realistic for a single day"
+    ],
+    "task_description": "Create a one day meal plan for an athlete.",
+    "scenario": "Testing with an athlete with dietary restrictions (vegan gymnast) that requires balanced macronutrients while avoiding animal products and maintaining low body weight"
+  }
+]
