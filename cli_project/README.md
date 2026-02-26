@@ -95,6 +95,11 @@ Commands will auto-complete when you press Tab.
 
 ## Development
 
+To run MCP Inspector:
+```
+mcp dev mcp_server.py
+```
+
 ### Adding New Documents
 
 Edit the `mcp_server.py` file to add new documents to the `docs` dictionary.
